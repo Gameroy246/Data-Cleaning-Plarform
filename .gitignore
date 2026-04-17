@@ -1,0 +1,22 @@
+# Environments
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Temp Files (Don't upload massive datasets to GitHub)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.jsonl
+dataforge_temp/
+output/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
