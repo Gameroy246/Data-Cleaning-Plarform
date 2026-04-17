@@ -1,6 +1,6 @@
 import streamlit as st, requests, pandas as pd, plotly.express as px, os, json
 
-API_URL = "http://localhost:8000"
+API_URL = os.getenv("API_URL", "http://localhost:8000")
 TEMPLATES_DIR = "./templates"
 os.makedirs(TEMPLATES_DIR, exist_ok=True)
 st.set_page_config(page_title="Data Architect: Max", layout="wide")
